@@ -1,0 +1,25 @@
+﻿<UXML xmlns="UnityEngine.UIElements">
+
+    <Style src="/Assets/NinjaPuzzle/Code/UI/Styles/Style.uss" />
+    
+    <VisualElement name="slider" class="slider">
+        <VisualElement class="slider_band">
+            
+            <VisualElement class="slider_fill"/>
+            
+            <VisualElement class="slider_stage slider_stage--1">
+                <VisualElement class="slider_stage_img"/>
+            </VisualElement>
+
+            <VisualElement class="slider_stage slider_stage--2">
+                <VisualElement class="slider_stage_img"/>
+            </VisualElement>
+
+            <VisualElement class="slider_stage slider_stage--3">
+                <VisualElement class="slider_stage_img"/>
+            </VisualElement>
+            
+        </VisualElement>
+    </VisualElement>
+    
+</UXML>

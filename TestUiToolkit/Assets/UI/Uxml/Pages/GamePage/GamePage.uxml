@@ -1,8 +1,12 @@
-﻿<UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="UnityEngine.UIElements"
-      xsi:schemaLocation="UnityEngine.UIElements file:///C:/git/TestUiToolkit/UIElementsSchema/UnityEngine.UIElements.xsd">
+﻿<UXML xmlns="UnityEngine.UIElements">
+
+    <Template name="slider-t" src="/Assets/UI/Uxml/Components/SliderComponent/SliderComponent.uxml" />
 
     <VisualElement class="page page--game">
         <TextElement text="Game Page"/>
+
+        <Instance template="slider-t"/>
+
     </VisualElement>
 
 </UXML>

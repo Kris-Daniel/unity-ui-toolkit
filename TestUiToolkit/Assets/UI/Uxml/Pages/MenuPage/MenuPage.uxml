@@ -1,8 +1,9 @@
-﻿<UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="UnityEngine.UIElements"
-      xsi:schemaLocation="UnityEngine.UIElements file:///C:/git/TestUiToolkit/UIElementsSchema/UnityEngine.UIElements.xsd">
+﻿<UXML xmlns="UnityEngine.UIElements">
     
     <VisualElement class="page page--menu">
+        
         <TextElement text="Menu Page"/>
+        
     </VisualElement>
     
 </UXML>

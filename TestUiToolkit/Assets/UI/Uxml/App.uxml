@@ -1,5 +1,4 @@
-<UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="UnityEngine.UIElements"
-      xsi:schemaLocation="UnityEngine.UIElements file:///C:/git/TestUiToolkit/UIElementsSchema/UnityEngine.UIElements.xsd">
+<UXML xmlns="UnityEngine.UIElements">
 
     <Style src="/Assets/UI/Styles/Style.uss" />
     

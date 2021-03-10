@@ -3,7 +3,8 @@
 }
 
 .page{
-    
+    padding: 40px;
+    position: relative;
 }
 
 .page--menu{

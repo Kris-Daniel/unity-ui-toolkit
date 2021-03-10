@@ -17,6 +17,8 @@ namespace UI.FrameWork
 
 		public virtual VisualElement Render()
 		{
+			XmlElement?.Clear();
+			
 			return XmlElement;
 		}
 	}

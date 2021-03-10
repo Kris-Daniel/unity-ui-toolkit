@@ -4,6 +4,6 @@
     <Style src="/Assets/UI/Styles/Style.uss" />
     
     <VisualElement name="app" class="app">
-        <TextElement text="App Layout"/>
+        
     </VisualElement>
 </UXML>

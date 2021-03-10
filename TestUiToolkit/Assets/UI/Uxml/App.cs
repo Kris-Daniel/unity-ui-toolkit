@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UI.FrameWork;
 using UI.Uxml.Pages.GamePage;
 using UI.Uxml.Pages.MenuPage;
@@ -21,10 +22,27 @@ namespace UI.Uxml
 
 		public override VisualElement Render()
 		{
+			base.Render();
+			
 			XmlElement.Add(m_menuPage.XmlElement);
 			XmlElement.Add(m_gamePage.XmlElement);
+			
+			m_gamePage.XmlElement.AddToClassList("hide");
 
 			return XmlElement;
+		}
+
+		public void OnChangeGameState(string gameState)
+		{
+			foreach (var child in Children)
+			{
+				child.XmlElement.AddToClassList("hide");
+			}
+
+			if (gameState == "game")
+			{
+				m_gamePage.XmlElement.RemoveFromClassList("hide");
+			}
 		}
 	}
 }

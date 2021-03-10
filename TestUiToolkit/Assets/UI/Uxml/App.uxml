@@ -1,6 +1,9 @@
 <UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="UnityEngine.UIElements"
       xsi:schemaLocation="UnityEngine.UIElements file:///C:/git/TestUiToolkit/UIElementsSchema/UnityEngine.UIElements.xsd">
-    <VisualElement class="app">
-        
+
+    <Style src="/Assets/UI/Styles/Style.uss" />
+    
+    <VisualElement name="app" class="app">
+        <TextElement text="App Layout"/>
     </VisualElement>
 </UXML>

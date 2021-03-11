@@ -2,10 +2,10 @@
 
     <Template name="slider-t" src="/Assets/UI/Uxml/Components/SliderComponent/SliderComponent.uxml" />
 
-    <VisualElement class="page page--game">
+    <VisualElement class="page page--game text-center">
         <TextElement text="Game Page"/>
 
-        <Instance template="slider-t"/>
+        <Instance template="slider-t" class="mt20"/>
 
     </VisualElement>
 

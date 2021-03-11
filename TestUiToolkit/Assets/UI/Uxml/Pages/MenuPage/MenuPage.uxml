@@ -1,8 +1,12 @@
 ﻿<UXML xmlns="UnityEngine.UIElements">
     
-    <VisualElement class="page page--menu">
+    <VisualElement class="page page--menu text-center">
         
         <TextElement text="Menu Page"/>
+        
+        <Button name="btn-start" class="btn btn--start-game self-center mt20">
+            <TextElement text="Start Game"/>
+        </Button>
         
     </VisualElement>
     
